@@ -1,0 +1,142 @@
+[11:09:52] ~
+// ♥ ls
+Applications			Movies
+Box Sync			Music
+Creative Cloud Files		Pictures
+Creative Cloud Files (unknown)	Public
+Desktop				another-awesome-folder
+Development			check.sh
+Documents			html-album-cover-fe-1015
+Downloads			index.html
+Dropbox				indexcopy.html
+Flatiron-Class-1		the-blonde-code
+Library
+[11:10:09] ~
+// ♥ cd Flatiron-Class-1/
+[11:10:34] Flatiron-Class-1
+// ♥ ls
+flatiron-class1-git		practice-git1
+html-album-cover-fe-1015
+[11:10:35] Flatiron-Class-1
+// ♥ mkdir code-along-ex1
+[11:11:01] Flatiron-Class-1
+// ♥ ls
+code-along-ex1			html-album-cover-fe-1015
+flatiron-class1-git		practice-git1
+[11:11:04] Flatiron-Class-1
+// ♥ cd code-along-ex1
+[11:11:13] code-along-ex1
+// ♥ ls
+[11:11:15] code-along-ex1
+// ♥ touch README.md
+[11:19:51] code-along-ex1
+// ♥ touch .gitignore
+[11:21:01] code-along-ex1
+// ♥ touch .gitignore
+[11:21:35] code-along-ex1
+// ♥ subl .
+[11:23:13] code-along-ex1
+// ♥ ls -a
+.		..		.gitignore	README.md
+[11:38:44] code-along-ex1
+// ♥ git init
+Initialized empty Git repository in /Users/Jess/Flatiron-Class-1/code-along-ex1/.git/
+[11:39:33] code-along-ex1
+// ♥ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gitignore
+	README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+[11:41:02] code-along-ex1
+// ♥ git add .
+[11:43:49] code-along-ex1
+// ♥ git commit -m "first commit"
+[master (root-commit) 4d07daf] first commit
+ 2 files changed, 47 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+[11:46:00] (master) code-along-ex1
+// ♥ git remote add origin git@github.com:jessshames/code-along-ex1.git
+[12:15:44] (master) code-along-ex1
+// ♥ git remote
+origin
+[12:18:28] (master) code-along-ex1
+// ♥ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 642 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To git@github.com:jessshames/code-along-ex1.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+[12:21:18] (master) code-along-ex1
+// ♥ git co -b main-pages
+Switched to a new branch 'main-pages'
+[13:38:29] (main-pages) code-along-ex1
+// ♥ git branch
+* main-pages
+  master
+[13:41:40] (main-pages) code-along-ex1
+// ♥ touch contact.html
+[13:48:29] (main-pages) code-along-ex1
+// ♥ touch market-report.html
+[13:49:41] (main-pages) code-along-ex1
+// ♥ touch new-properties.html
+[13:51:17] (main-pages) code-along-ex1
+// ♥ touch real-estate-listings.html
+[13:51:33] (main-pages) code-along-ex1
+// ♥ mkdir images
+[13:54:11] (main-pages) code-along-ex1
+// ♥ cd ~/Desktop
+[13:59:05] Desktop
+// ♥ ls
+01.21.15 MARVEL PD Examples- Rollout February.key
+Angela Cert. of Authority Form DTF Form dtf17_1.pdf
+Intermission_wPackage.jpg
+Screen Shot 2015-09-10 at 4.09.49 PM.png
+Screen Shot 2015-09-15 at 10.02.20 PM.png
+Screen Shot 2015-09-15 at 10.06.35 PM.png
+Screen Shot 2015-09-15 at 10.06.51 PM.png
+Screen Shot 2015-09-17 at 6.44.27 PM.png
+Screen Shot 2015-09-21 at 4.18.20 PM.png
+Screen Shot 2015-09-21 at 4.18.39 PM.png
+Screen Shot 2015-09-21 at 4.18.56 PM.png
+Screen Shot 2015-09-24 at 11.16.56 AM.png
+Screen Shot 2015-09-27 at 10.04.56 PM.png
+Screen Shot 2015-09-27 at 8.57.20 PM.png
+Screen Shot 2015-09-27 at 8.57.27 PM.png
+Screen Shot 2015-09-27 at 8.58.50 PM.png
+Screen Shot 2015-09-29 at 9.21.53 PM.png
+Screen Shot 2015-09-29 at 9.26.05 PM.png
+Screen Shot 2015-09-29 at 9.28.16 PM.png
+Screen Shot 2015-10-06 at 6.15.24 PM.png
+Screen Shot 2015-10-08 at 11.52.35 AM.png
+Screen Shot 2015-10-08 at 11.59.56 AM.png
+Screen Shot 2015-10-08 at 12.03.00 PM.png
+Screen Shot 2015-10-08 at 3.05.08 PM.png
+Screen Shot 2015-10-08 at 3.18.24 PM.png
+Screen Shot 2015-10-08 at 3.18.56 PM.png
+Screen Shot 2015-10-08 at 3.30.17 PM.png
+Screen Shot 2015-10-12 at 11.14.51 AM.png
+Screen Shot 2015-10-12 at 11.24.59 AM.png
+Screen Shot 2015-10-12 at 7.17.39 PM.png
+Screen Shot 2015-10-13 at 11.43.52 AM.png
+Screen Shot 2015-10-13 at 12.17.52 PM.png
+W-2 2014 Jessica 02.10.15.pdf
+W-2 2014 Jessica.pdf
+WirelessDiagnostics_C02LQ0CKFH02_2015-09-15_13.25.05.tar.gz
+intro-pic.jpg
+izola-brass-ruled-letter-opener-4.jpg
+my-awesome-project
+[14:00:31] Desktop
+// ♥ cp intro-pic.jpg ~/Flatiron-Class-1/code-along-ex1/images
+[14:08:25] Desktop
+// ♥ cp intro-pic.jpg ~/Flatiron-Class-1/code-along-ex1/images/intro-pic.jpg
